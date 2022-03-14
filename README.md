@@ -32,6 +32,22 @@ An excellent SplashScreen that works for android versions before and after Andro
  ## SplashScreen is only closed when the main scene of your game is fully loaded, perfect right, let it star.
  
  
+ # build.gradle
+ - In the build.gradle file, change your compileSdkVersion and include the SplashScreen compat library in dependencies.
+ 
+ ``build.gradle
+
+android {
+   compileSdkVersion 31
+   ...
+}
+dependencies {
+   ...
+   implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
+}
+``
+ - More information: [https://developer.android.com/guide/topics/ui/splash-screen/migrate#java](https://developer.android.com/guide/topics/ui/splash-screen/migrate#java)
+ 
  
  
 # Twitter:
