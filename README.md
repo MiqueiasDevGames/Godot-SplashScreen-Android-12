@@ -36,4 +36,4 @@ An excellent SplashScreen that works for android versions before and after Andro
 - [https://twitter.com/MiqueiasGames](https://twitter.com/MiqueiasGames)
 
 # My Games: 
-- [miqueiasdevgames.github.io/](miqueiasdevgames.github.io/)
+- [https://miqueiasdevgames.github.io/](https://miqueiasdevgames.github.io/)
