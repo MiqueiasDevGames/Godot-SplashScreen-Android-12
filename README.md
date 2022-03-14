@@ -7,7 +7,7 @@ An excellent SplashScreen that works for android versions before and after Andro
 
 - Now go to AndroidManifest.xml in android/build/ and delete `android:theme="@style/GodotAppSplashTheme"` from
 <activity android:name=".GodotApp"
-- in <application> put this 
+- in \<application\> put this 
 `android:theme="@style/Theme.App.Starting"`
 
 
