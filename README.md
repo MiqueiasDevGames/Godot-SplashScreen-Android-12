@@ -12,9 +12,8 @@ An excellent SplashScreen that works for android versions before and after Andro
 same ExampleAndroidManifest.xml in the src folder of this project
 
 - Also included the following tag inside your <application> tag:
-
-`<meta-data
- android:name="org.godotengine.plugin.v1.PluginSplashScreen"
- android:value="com.matematica.canhaokids.PluginSplashScreen" /> `
+ <meta-data
+  android:name="org.godotengine.plugin.v1.PluginSplashScreen"
+  android:value="com.matematica.canhaokids.PluginSplashScreen" /> 
   
  - Finally copy the xml from the res/values ​​folder of this project and paste it in the res/values ​​folder of android/build/
