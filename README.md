@@ -1,9 +1,9 @@
 # Godot-SplashScreen-Android-12
 An excellent SplashScreen that works for android versions before and after Android 12
 
-#Splash Screen Godot Android Solution
+# Splash Screen Godot Android Solution
 
-- First go to android/build/src/com/godot/game and paste there GodotApp.java and PluginSplashScreen.java from the src folder of this project.
+- First go to android/build/src/com/godot/game and paste there GodotApp.java and PluginSplashScreen.java from the Android/src folder of this project.
 
 - Now go to AndroidManifest.xml in android/build/ and delete `android:theme="@style/GodotAppSplashTheme"` from
 <activity android:name=".GodotApp"
@@ -16,7 +16,7 @@ An excellent SplashScreen that works for android versions before and after Andro
   android:name="org.godotengine.plugin.v1.PluginSplashScreen"
   android:value="com.matematica.canhaokids.PluginSplashScreen" /> ``
  
- - Check the ExampleAndroidManifest.xml in the src folder
+ - Check the ExampleAndroidManifest.xml in the Android/src folder
   
  - Finally copy the xml from the res/values ​​folder of this project and paste it in the res/values ​​folder of android/build/
 
