@@ -10,8 +10,8 @@
       
     
         <<meta-data
-            android:name="org.godotengine.plugin.v1.PluginSplashScreen"
-            android:value="com.godot.game.PluginSplashScreen" /> 
+             android:name="org.godotengine.plugin.v1.PluginSplashScreen"
+             android:value="com.godot.game.PluginSplashScreen" /> 
       
       
     </application>
