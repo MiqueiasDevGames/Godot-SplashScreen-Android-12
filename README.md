@@ -19,6 +19,8 @@ An excellent SplashScreen that works for android versions before and after Andro
  - Check the ExampleAndroidManifest.xml in the Android/src folder
   
  - Finally copy the xml from the res/values ​​folder of this project and paste it in the res/values ​​folder of android/build/
+ 
+ - The SplashScreen image must be placed in the android/build/res/drawable-nodpi folder with the name splash and have a size of 192x192 px
 
  
  ## One more thing
