@@ -25,7 +25,7 @@ An excellent SplashScreen that works for android versions before and after Andro
  
  ## One more thing
  
- - In the Scripts_Godot/SplashScreen/ folder you will find the scene that will be your main scene, copy it along with its script, to the root of your godot project and define it as run scene.
+ - In the Script_SplashScreen/ folder you will find the scene that will be your main scene, copy it along with its script, to the root of your godot project and define it as run scene.
  - Change res://myMainGame.tscn in the function goto_scene(), in the Main.gd script to the first scene of your game.
  - It is necessary to do this so that godot closes the SplashScreen android, when it finishes loading your scene.
  - A Godot SplashScreen compatible with Android 12 and later and earlier.
